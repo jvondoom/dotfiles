@@ -90,10 +90,11 @@ source $ZSH/oh-my-zsh.sh
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
-
 alias go-web="w3m duckduckgo.com"
 alias t="todo.sh"
 alias clr="clear"
+
+# git shortcuts
 alias ga="git add"
 alias gc="git commit"
 alias gs="git status"
@@ -113,7 +114,7 @@ export PATH="$PATH:$HOME/.rvm/bin"
 local RED='\033[0;31m' # Red Color
 
 local str width length
-        
+
 width=$(tput cols)
 str="+++ Serve the Spirit in this cogitator, please the Omnissiah with its use. +++"
 length=${#str}
