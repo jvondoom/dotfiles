@@ -13,12 +13,16 @@ Plugin 'VundleVim/Vundle.vim'
 " The following are examples of different formats supported.
 " Keep Plugin commands between vundle#begin/end.
 " plugin on GitHub repo
+
 Plugin 'tpope/vim-fugitive'
 Plugin 'tpope/vim-commentary'
+Plugin 'vim-airline/vim-airline'
+Plugin 'vim-airline/vim-airline-themes'
+Plugin 'syntastic'
+Plugin 'mustache/vim-mustache-handlebars'
 Plugin 'surround.vim'
 Plugin 'digitaltoad/vim-pug'
-
-Plugin 'vim-airline/vim-airline'
+Plugin 'editorconfig/editorconfig-vim'
 
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
@@ -46,6 +50,25 @@ set incsearch
 set number
 set relativenumber
 set laststatus=2
+
+set statusline+=%#warningmsg#
+set statusline+=%{SyntasticStatuslineFlag()}
+set statusline+=%*
+
+let g:syntastic_always_populate_loc_list = 1
+let g:syntastic_auto_loc_list = 1
+let g:syntastic_check_on_wq = 0
+let g:mustache_abbreviations = 1
+
+let g:syntastic_html_tidy_ignore_errors = ['<svg> is not recognized',
+            \ '<use> is not recognized',
+            \ 'trimming empty <',
+            \ '<img> lacks "src" ',
+            \ 'discarding unexpected <svg>',
+            \ 'discarding unexpected <use>',
+            \ 'discarding unexpected </svg>',
+            \ 'discarding unexpected </use>'
+\]
 
 set smartindent
 set tabstop=2
