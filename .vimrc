@@ -85,6 +85,9 @@ inoremap " ""<Left>
 inoremap ' ''<Left>
 inoremap ` ``<Left>
 
+"Enable <++> to be a jump point
+inoremap <Space><Space> <Esc>/<++><Enter>"_c4l
+
 " File browser tweaks
 let g:netrw_banner=0    " disable annoying banner
 let g:netrw_liststyle=3 " tree view
