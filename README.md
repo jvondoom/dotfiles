@@ -2,8 +2,9 @@
 In Mainframe, where Dot is saved in a file
 
 ## Required
-- Install [iTerm2](https://iterm2.com/)
-- Install [ohmyzsh](http://ohmyz.sh/)
+- Install [iTerm2](https://iterm2.com/) OS X Terminal Replacement.
+- Install [ohmyzsh](http://ohmyz.sh/) Shell.
+- Install [powerlevel9l](https://github.com/bhilburn/powerlevel9k) ZSH Theme.
 
 ## CLI Apps
 - [w3m](http://w3m.sourceforge.net/) - Terminal Web Browser. Install with `brew install w3m`
