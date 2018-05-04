@@ -12,7 +12,7 @@ inoremap ;span <span></span><Space><++><Esc>FsT>i
 inoremap ;i <em></em><Space><++><Esc>FeT>i
 inoremap ;b <b></b><Space><++><Esc>FbT>i
 
-inoremap ;a <a href=""><++></a><Space><++><Esc>^/"<Enter>a
+inoremap ;a <a href=""><++></a><Space><++><Esc>2B/"<Enter>a
 inoremap ;li <li></li><Enter><++><Esc>ka
 
 "Shortcuts for HTML Attributes
