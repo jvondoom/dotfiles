@@ -8,6 +8,7 @@ In Mainframe, where Dot is saved in a file
 
 ## CLI Apps
 - [w3m](http://w3m.sourceforge.net/) - Terminal Web Browser. Install with `brew install w3m`
+- [ranger](http://www.rosipov.com/blog/ranger-the-cli-file-manager/) - Terminal File Manager. Install with `brew install ranger`
 - [todo.txt](https://github.com/todotxt/todo.txt-cli) - todo.txt manager. Install with `brew install todo-txt`
 - [Watson](https://github.com/TailorDev/Watson) - Time tracker. Install with `brew install watson`
 
