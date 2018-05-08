@@ -15,5 +15,5 @@ In Mainframe, where Dot is saved in a file
 - [todo.txt](https://github.com/todotxt/todo.txt-cli) - todo.txt manager. Install with `brew install todo-txt`
 - [Watson](https://github.com/TailorDev/Watson) - Time tracker. Install with `brew install watson`
 
-## Vim Plugin Manager
+### Vim Plugin Manager
 In order to use Vim Plugins, install [Vundle](https://github.com/VundleVim/Vundle.vim)
