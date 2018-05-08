@@ -6,6 +6,9 @@ In Mainframe, where Dot is saved in a file
 - Install [ohmyzsh](http://ohmyz.sh/) Shell.
 - Install [powerlevel9k](https://github.com/bhilburn/powerlevel9k) ZSH Theme.
 
+## Recommended
+- Use [Karabiner](https://pqrs.org/osx/karabiner/) to remap `Caps Lock` to work as `Esc`
+
 ## CLI Apps
 - [w3m](http://w3m.sourceforge.net/) - Terminal Web Browser. Install with `brew install w3m`
 - [ranger](http://www.rosipov.com/blog/ranger-the-cli-file-manager/) - Terminal File Manager. Install with `brew install ranger`
