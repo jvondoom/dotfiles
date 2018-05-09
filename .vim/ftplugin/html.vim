@@ -1,3 +1,6 @@
+"Snippet for empty HTML doc
+nnoremap ;html :-1read ~/.vim/snippets/skeleton.html<CR>3jwf>a
+
 "Shortcuts for HTML tags
 inoremap ;1 <h1></h1><CR><CR><++><Esc>2ka
 inoremap ;2 <h2></h2><CR><CR><++><Esc>2ka
