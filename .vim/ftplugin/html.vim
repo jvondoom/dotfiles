@@ -20,7 +20,7 @@ inoremap ;class class=""<Esc>ha
 inoremap ;id id=""<Esc>ha
 
 "Shortcuts for HTML groups
-inoremap ;sect <section class=""><CR></section><Esc>O<Tab><++><Esc>k/"<CR>a
+inoremap ;sect <section class=""><CR></section><Esc>O<Tab><++><Esc>kf"a
 inoremap ;div <div class=""><CR></div><Esc>O<Tab><++><Esc>jo<CR><++><Esc>4k/"<CR>a
 
 inoremap ;ol <ol><CR></ol><Esc>o<CR><++><Esc>2kO<Tab><li><++></li><Esc>yy2p2ka<Space>class=""<Esc>i
