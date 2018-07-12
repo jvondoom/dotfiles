@@ -5,6 +5,7 @@ In Mainframe, where Dot saves other files at her diner
 - Install [iTerm2](https://iterm2.com/) OS X Terminal Replacement.
 - Install [ohmyzsh](http://ohmyz.sh/) Shell.
 - Install [powerlevel9k](https://github.com/bhilburn/powerlevel9k) ZSH Theme.
+- Use [Option#2](https://github.com/bhilburn/powerlevel9k/wiki/Install-Instructions#step-2-install-a-powerline-font) to install the theme fonts
 
 ## Recommended
 - Use [Karabiner](https://pqrs.org/osx/karabiner/) to remap `Caps Lock` to work as `Esc`
