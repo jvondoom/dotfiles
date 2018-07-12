@@ -23,6 +23,7 @@ Plugin 'mustache/vim-mustache-handlebars'
 Plugin 'surround.vim'
 Plugin 'digitaltoad/vim-pug'
 Plugin 'editorconfig/editorconfig-vim'
+Plugin 'prettier/vim-prettier'
 
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
@@ -69,6 +70,10 @@ set statusline+=%*
 "             \ 'discarding unexpected </svg>',
 "             \ 'discarding unexpected </use>'
 " \]
+
+" Prettier runnig on save settings
+let g:prettier#autoformat = 0
+autocmd BufWritePre *.js,*.css,*.scss,*.less Prettier
 
 set smartindent
 set tabstop=2
