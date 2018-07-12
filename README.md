@@ -1,5 +1,5 @@
 # dotfiles
-In Mainframe, where Dot saves other files at her diner
+In Mainframe, where Dot saves other files at her dinner
 
 ## Required
 - Install [iTerm2](https://iterm2.com/) OS X Terminal Replacement.
