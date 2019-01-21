@@ -23,6 +23,7 @@ Plugin 'mustache/vim-mustache-handlebars'
 Plugin 'surround.vim'
 Plugin 'digitaltoad/vim-pug'
 Plugin 'editorconfig/editorconfig-vim'
+Plugin 'pangloss/vim-javascript'
 
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
