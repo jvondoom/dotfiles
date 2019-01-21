@@ -14,7 +14,7 @@ ZSH_THEME="powerlevel9k/powerlevel9k"
 
 POWERLEVEL9K_LEFT_PROMPT_ELEMENTS=(os_icon dir vcs)
 POWERLEVEL9K_RIGHT_PROMPT_ELEMENTS=(todo root_indicator background_jobs time battery)
-POWERLEVEL9K_MODE='awesome-fontconfig'
+POWERLEVEL9K_MODE='awesome-patched'
 
 # Uncomment the following line to use case-sensitive completion.
 # CASE_SENSITIVE="true"
@@ -93,6 +93,7 @@ source $ZSH/oh-my-zsh.sh
 alias go-web="w3m duckduckgo.com"
 alias t="todo.sh"
 alias clr="clear"
+alias nrs="npm run start"
 
 # git shortcuts
 alias ga="git add"
