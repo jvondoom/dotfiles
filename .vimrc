@@ -16,15 +16,16 @@ Plugin 'VundleVim/Vundle.vim'
 
 Plugin 'tpope/vim-fugitive'
 Plugin 'tpope/vim-commentary'
+Plugin 'surround.vim'
+Plugin 'syntastic'
 Plugin 'vim-airline/vim-airline'
 Plugin 'vim-airline/vim-airline-themes'
-"Plugin 'syntastic'
 Plugin 'mustache/vim-mustache-handlebars'
-Plugin 'surround.vim'
 Plugin 'digitaltoad/vim-pug'
 Plugin 'editorconfig/editorconfig-vim'
 Plugin 'prettier/vim-prettier'
 Plugin 'pangloss/vim-javascript'
+Plugin 'mxw/vim-jsx'
 
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
@@ -57,24 +58,20 @@ set statusline+=%#warningmsg#
 set statusline+=%{SyntasticStatuslineFlag()}
 set statusline+=%*
 
-" let g:syntastic_always_populate_loc_list = 1
-" let g:syntastic_auto_loc_list = 1
-" let g:syntastic_check_on_wq = 0
-" let g:mustache_abbreviations = 1
+let g:syntastic_always_populate_loc_list = 1
+let g:syntastic_auto_loc_list = 1
+let g:syntastic_check_on_wq = 0
+let g:mustache_abbreviations = 1
 
-" let g:syntastic_html_tidy_ignore_errors = ['<svg> is not recognized',
-"             \ '<use> is not recognized',
-"             \ 'trimming empty <',
-"             \ '<img> lacks "src" ',
-"             \ 'discarding unexpected <svg>',
-"             \ 'discarding unexpected <use>',
-"             \ 'discarding unexpected </svg>',
-"             \ 'discarding unexpected </use>'
-" \]
-
-" Prettier runnig on save settings
-let g:prettier#autoformat = 0
-autocmd BufWritePre *.js,*.css,*.scss,*.less Prettier
+let g:syntastic_html_tidy_ignore_errors = ['<svg> is not recognized',
+            \ '<use> is not recognized',
+            \ 'trimming empty <',
+            \ '<img> lacks "src" ',
+            \ 'discarding unexpected <svg>',
+            \ 'discarding unexpected <use>',
+            \ 'discarding unexpected </svg>',
+            \ 'discarding unexpected </use>'
+\]
 
 set smartindent
 set tabstop=2
@@ -95,6 +92,9 @@ inoremap ` ``<Left>
 inoremap <Space><Space> <Esc>/<++><Enter>"_c4l
 
 " File browser tweaks
-" Open with :Explore
 let g:netrw_banner=0    " disable annoying banner
 let g:netrw_liststyle=3 " tree view
+
+" Prettier runs before saving
+let g:prettier#autoformat = 0
+autocmd BufWritePre *.js,*.jsx,*.mjs,*.ts,*.tsx,*.css,*.less,*.scss,*.json,*.graphql,*.md,*.vue,*.yaml,*.html PrettierAsync
