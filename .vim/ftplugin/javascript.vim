@@ -11,3 +11,7 @@ inoremap ;gid document.getElementById('');<Esc>F'i
 inoremap ;gclas document.getElementsByClassName('');<Esc>F'i
 inoremap ;qsel document.querySelector('');<Esc>F'i
 inoremap ;adevlist .addEventListener('<++>', <++>);<Esc>F.i
+
+"Other Shortcuts
+inoremap ;imp import x from '<++>';<Esc>Fxs
+inoremap ;exp export x <++>;<Esc>Fxs
