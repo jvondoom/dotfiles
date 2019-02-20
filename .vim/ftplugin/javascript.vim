@@ -1,3 +1,6 @@
+"Shortcuts for JS templates
+nnoremap ;comp :-1read ~/.vim/templates/skeleton.component.js<CR>2jfxs
+
 "Shortcuts for JS elements
 inoremap ;if if () {<CR><++><CR>}<CR><++><Esc>3ka
 inoremap ;for for(let i=0; i<; i++) {<CR><++><CR>}<CR><++><Esc>3kf<a

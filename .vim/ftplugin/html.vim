@@ -1,3 +1,6 @@
+"Shortcut for HTML template
+nnoremap ;html :-1read ~/.vim/templates/skeleton.html<CR>4jf>a
+
 "Shortcuts for HTML tags
 inoremap ;1 <h1></h1><Enter><Enter><++><Esc>2ka
 inoremap ;2 <h2></h2><Enter><Enter><++><Esc>2ka
