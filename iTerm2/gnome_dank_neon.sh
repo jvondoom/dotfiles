@@ -16,8 +16,9 @@ export COLOR_14="##F1B3F1"
 export COLOR_15="##01F7F7"
 export COLOR_16="##EFF0F6"
 
-export BACKGROUND_COLOR="#"
-export FOREGROUND_COLOR="#"
+export BACKGROUND_COLOR="#191B2A"
+export FOREGROUND_COLOR="#EFF0F6"
+export BOLD_COLOR="#EFF0F6"
 export CURSOR_COLOR="$FOREGOUND_COLOR"
 export PROFILE_NAME="dank_neon"
 # =============================================================== #
