@@ -1,20 +1,20 @@
 # ==================== CONFIG THIS =============================== #
-export COLOR_01="##191B2A"
-export COLOR_02="##AC3756"
-export COLOR_03="##2DAD86"
-export COLOR_04="##FFCA7A"
-export COLOR_05="##7496CC"
-export COLOR_06="##A37CA9"
-export COLOR_07="##01A8AD"
-export COLOR_08="##858DB7"
-export COLOR_09="##2A2D46"
-export COLOR_10="##FF476E"
-export COLOR_11="##39FFBA"
-export COLOR_12="##FFEE7A"
-export COLOR_13="##94BFFF"
-export COLOR_14="##F1B3F1"
-export COLOR_15="##01F7F7"
-export COLOR_16="##EFF0F6"
+export COLOR_01="#191B2A"
+export COLOR_02="#AC3756"
+export COLOR_03="#2DAD86"
+export COLOR_04="#FFCA7A"
+export COLOR_05="#7496CC"
+export COLOR_06="#A37CA9"
+export COLOR_07="#01A8AD"
+export COLOR_08="#858DB7"
+export COLOR_09="#2A2D46"
+export COLOR_10="#FF476E"
+export COLOR_11="#39FFBA"
+export COLOR_12="#FFEE7A"
+export COLOR_13="#94BFFF"
+export COLOR_14="#F1B3F1"
+export COLOR_15="#01F7F7"
+export COLOR_16="#EFF0F6"
 
 export BACKGROUND_COLOR="#191B2A"
 export FOREGROUND_COLOR="#EFF0F6"
@@ -36,7 +36,7 @@ PARENT_PATH="$(dirname "${SCRIPT_PATH}")"
 # IMPORTANT: Make sure you export this variable if your main shell is not bash
 BASE_URL=${BASE_URL:-"https://raw.githubusercontent.com/Mayccoll/Gogh/master"}
 
-if [[-e "${PARENT_PATH}/apply-colors.sh"]]; then
+if [[ -e "${PARENT_PATH}/apply-colors.sh" ]]; then
   bash "${PARENT_PATH}/apply-colors.sh"
 else
   if [[ "$(uname)" = "Darwin" ]]; then
