@@ -1,3 +1,5 @@
+#!/bin/bash
+
 cp -r ../.vim ~/
 echo Copied .vim folder
 cp ../.vimrc ~/
