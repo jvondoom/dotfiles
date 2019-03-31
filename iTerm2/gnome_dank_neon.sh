@@ -1,3 +1,5 @@
+#!/usr/bin/env bash
+
 # ==================== CONFIG THIS =============================== #
 export COLOR_01="#191B2A"
 export COLOR_02="#AC3756"
