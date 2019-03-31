@@ -13,3 +13,5 @@ cd awesome-terminal-fonts/
 cp -r build ~/.fonts
 echo "fonts copied"
 fc-cache -fv ~./fonts
+cd
+rm -rf this-temp-folder
