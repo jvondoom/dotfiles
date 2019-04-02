@@ -10,8 +10,7 @@ mkdir this-temp-folder
 cd this-temp-folder
 git clone https://github.com/gabrielelana/awesome-terminal-fonts.git
 cd awesome-terminal-fonts/
-cp -r build ~/.fonts
+cp -r fonts ~/.fonts
 echo "fonts copied"
-fc-cache -fv ~./fonts
 cd
 rm -rf this-temp-folder
