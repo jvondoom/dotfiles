@@ -26,6 +26,7 @@ Plugin 'editorconfig/editorconfig-vim'
 Plugin 'prettier/vim-prettier'
 Plugin 'pangloss/vim-javascript'
 Plugin 'mxw/vim-jsx'
+Plugin 'ekalinin/Dockerfile.vim'
 
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
