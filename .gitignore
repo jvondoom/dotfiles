@@ -36,6 +36,10 @@
 ehthumbs.db
 Thumbs.db'
 
+# VIM swap files #
+##################
+*.swp
+
 # Front End #
 #############
 node_modules
