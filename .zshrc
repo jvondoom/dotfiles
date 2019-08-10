@@ -94,6 +94,8 @@ alias go-web="w3m duckduckgo.com"
 alias t="todo.sh"
 alias clr="clear"
 alias nrs="npm run start"
+alias nrd="npm run develop"
+alias gatdev="gatsby develop"
 
 # git shortcuts
 alias ga="git add"
