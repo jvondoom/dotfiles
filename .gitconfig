@@ -8,3 +8,5 @@
 [alias]
   cm = commit
   co = checkout
+  ps = push
+  pl = pull
