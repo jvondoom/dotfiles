@@ -1,6 +1,10 @@
 [github]
   user = jvondoom
-    
+
 [user]
 	email = phazhion@gmail.com
 	name = Juan von Doom
+
+[alias]
+  cm = commit
+  co = checkout
