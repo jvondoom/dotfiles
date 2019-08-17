@@ -30,6 +30,7 @@ Plugin 'ekalinin/Dockerfile.vim'
 Plugin 'ap/vim-css-color'
 Plugin 'airblade/vim-gitgutter'
 Plugin 'jiangmiao/auto-pairs'
+Plugin 'ntpeters/vim-better-whitespace'
 
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
