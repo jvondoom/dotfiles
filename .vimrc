@@ -14,23 +14,52 @@ Plugin 'VundleVim/Vundle.vim'
 " Keep Plugin commands between vundle#begin/end.
 " plugin on GitHub repo
 
-Plugin 'tpope/vim-fugitive'
-Plugin 'tpope/vim-commentary'
-Plugin 'surround.vim'
-Plugin 'syntastic'
+" Vim status bar
 Plugin 'vim-airline/vim-airline'
 Plugin 'vim-airline/vim-airline-themes'
-Plugin 'mustache/vim-mustache-handlebars'
-Plugin 'digitaltoad/vim-pug'
-Plugin 'editorconfig/editorconfig-vim'
-Plugin 'prettier/vim-prettier'
-Plugin 'pangloss/vim-javascript'
-Plugin 'mxw/vim-jsx'
-Plugin 'ekalinin/Dockerfile.vim'
-Plugin 'ap/vim-css-color'
+
+" Git Plugins
+" -----------
+" Git wrapper
+Plugin 'tpope/vim-fugitive'
+" Git diff display
 Plugin 'airblade/vim-gitgutter'
+
+" Comment lines out
+Plugin 'tpope/vim-commentary'
+
+" Auto insert/delete brackets/parens/quotes in pairs
 Plugin 'jiangmiao/auto-pairs'
+
+" Put quotes/parentheses/brakcets around blocks
+Plugin 'surround.vim'
+
+" Checks for whitespaces left
 Plugin 'ntpeters/vim-better-whitespace'
+
+" EditorConfig plugin
+Plugin 'editorconfig/editorconfig-vim'
+
+" Prettier plugin
+Plugin 'prettier/vim-prettier'
+
+" Checks syntax errors
+Plugin 'syntastic'
+
+" Languages plugins
+" -----------------
+" CSS Color Highlighter
+Plugin 'ap/vim-css-color'
+" Pug Syntax Highlighter
+Plugin 'digitaltoad/vim-pug'
+" Dockerfile Syntax Highlighter
+Plugin 'ekalinin/Dockerfile.vim'
+" Mustache and Handlebars Syntax Highlighter
+Plugin 'mustache/vim-mustache-handlebars'
+" JSX Syntax Highlighter
+Plugin 'mxw/vim-jsx'
+" JS Syntax Highlighter
+Plugin 'pangloss/vim-javascript'
 
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
