@@ -27,6 +27,7 @@ Plugin 'prettier/vim-prettier'
 Plugin 'pangloss/vim-javascript'
 Plugin 'mxw/vim-jsx'
 Plugin 'ekalinin/Dockerfile.vim'
+Plugin 'ap/vim-css-color'
 
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
@@ -97,8 +98,5 @@ let g:netrw_banner=0    " disable annoying banner
 let g:netrw_liststyle=3 " tree view
 
 " Prettier runs before saving
-" copy the .prettierrc file into the home page
-" run 'prettier --find-config-path .prettierrc'
-" to force Prettier to follow the config rules
 let g:prettier#autoformat = 0
 autocmd BufWritePre *.js,*.jsx,*.mjs,*.ts,*.tsx,*.css,*.less,*.scss,*.json,*.graphql,*.md,*.vue,*.yaml,*.html PrettierAsync
