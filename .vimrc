@@ -29,6 +29,7 @@ Plugin 'mxw/vim-jsx'
 Plugin 'ekalinin/Dockerfile.vim'
 Plugin 'ap/vim-css-color'
 Plugin 'airblade/vim-gitgutter'
+Plugin 'jiangmiao/auto-pairs'
 
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
@@ -52,6 +53,9 @@ set path+=**
 set wildmenu
 
 set incsearch
+
+" Reduce the update time for Git Gutter plugin
+set updatetime=100
 
 set number
 set relativenumber
@@ -82,14 +86,14 @@ set shiftwidth=2
 set expandtab
 
 "For proper tabbing and bracket insertion
-inoremap {<cr> {<cr>}<c-o><s-o>
-inoremap [ []<Left>
-inoremap ( ()<Left>
-inoremap { {}<Left>
-inoremap < <><Left>
-inoremap " ""<Left>
-inoremap ' ''<Left>
-inoremap ` ``<Left>
+" inoremap {<cr> {<cr>}<c-o><s-o>
+" inoremap [ []<Left>
+" inoremap ( ()<Left>
+" inoremap { {}<Left>
+" inoremap < <><Left>
+" inoremap " ""<Left>
+" inoremap ' ''<Left>
+" inoremap ` ``<Left>
 
 "Enable <++> to be a jump point
 inoremap <Space><Space> <Esc>/<++><Enter>"_c4l
