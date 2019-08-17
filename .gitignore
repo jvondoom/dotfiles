@@ -40,6 +40,11 @@ Thumbs.db'
 ##################
 *.swp
 
-# Front End #
-#############
+# Dependecy directories #
+#########################
 node_modules
+
+# Gatsby files #
+################
+.cache/
+public
