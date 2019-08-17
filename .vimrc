@@ -35,6 +35,8 @@ Plugin 'jiangmiao/auto-pairs'
 Plugin 'surround.vim'
 
 " Checks for whitespaces left
+" To clean extra whitespace run:
+" :StripWhitespace
 Plugin 'ntpeters/vim-better-whitespace'
 
 " EditorConfig plugin
