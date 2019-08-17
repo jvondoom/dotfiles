@@ -115,6 +115,20 @@ set tabstop=2
 set shiftwidth=2
 set expandtab
 
+
+"Enable <++> to be a jump point
+inoremap <Space><Space> <Esc>/<++><Enter>"_c4l
+
+" File browser tweaks
+let g:netrw_banner=0    " disable annoying banner
+let g:netrw_liststyle=3 " tree view
+
+" Prettier runs before saving
+let g:prettier#autoformat = 0
+autocmd BufWritePre *.js,*.jsx,*.mjs,*.ts,*.tsx,*.css,*.less,*.scss,*.json,*.graphql,*.md,*.vue,*.yaml,*.html PrettierAsync
+
+" *** OLD SETTINGS ***
+" --------------------
 " For proper tabbing and bracket insertion
 " Replaced with Auto Pairs plugin
 " mapping left here for legacy reference
@@ -127,14 +141,3 @@ set expandtab
 " inoremap " ""<Left>
 " inoremap ' ''<Left>
 " inoremap ` ``<Left>
-
-"Enable <++> to be a jump point
-inoremap <Space><Space> <Esc>/<++><Enter>"_c4l
-
-" File browser tweaks
-let g:netrw_banner=0    " disable annoying banner
-let g:netrw_liststyle=3 " tree view
-
-" Prettier runs before saving
-let g:prettier#autoformat = 0
-autocmd BufWritePre *.js,*.jsx,*.mjs,*.ts,*.tsx,*.css,*.less,*.scss,*.json,*.graphql,*.md,*.vue,*.yaml,*.html PrettierAsync
