@@ -15,6 +15,7 @@ inoremap ;qsel document.querySelector('');<Esc>F'i
 inoremap ;adevlist .addEventListener('<++>', <++>);<Esc>F.i
 
 "Shortcuts for JSX
+inoremap ;comp < /><Esc>F<a
 inoremap ;div <div className=""><CR></div><Esc>O<Tab><++><Esc>kf"a
 inoremap ;cls className=''<Esc>F'a
 
