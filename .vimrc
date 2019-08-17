@@ -86,7 +86,10 @@ set tabstop=2
 set shiftwidth=2
 set expandtab
 
-"For proper tabbing and bracket insertion
+" For proper tabbing and bracket insertion
+" Replaced with Auto Pairs plugin
+" mapping left here for legacy reference
+
 " inoremap {<cr> {<cr>}<c-o><s-o>
 " inoremap [ []<Left>
 " inoremap ( ()<Left>
