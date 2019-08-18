@@ -18,6 +18,7 @@ inoremap ;adevlist .addEventListener('<++>', <++>);<Esc>F.i
 inoremap ;comp < /><Esc>F<a
 inoremap ;div <div className=""><CR></div><Esc>O<Tab><++><Esc>kf"a
 inoremap ;cls className=""<Esc>F"a
+inoremap ;a <a href=""><++></a><Esc>F"i
 
 "Other Shortcuts
 inoremap ;imp import x from '<++>';<Esc>Fxs
