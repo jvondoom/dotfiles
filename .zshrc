@@ -90,9 +90,13 @@ source $ZSH/oh-my-zsh.sh
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
+
+# terminal commands shortcuts
 alias go-web="w3m duckduckgo.com"
 alias t="todo.sh"
 alias clr="clear"
+
+# dev environment shortcuts
 alias nrs="npm run start"
 alias nrd="npm run develop"
 alias gatdev="gatsby develop"
