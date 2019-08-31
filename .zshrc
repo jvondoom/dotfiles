@@ -91,9 +91,12 @@ source $ZSH/oh-my-zsh.sh
 # For a full list of active aliases, run `alias`.
 
 # terminal commands shortcuts
+alias clr="clear"
+alias rf="rm -rf"
+
+# terminal app shortcuts
 alias go-web="w3m duckduckgo.com"
 alias t="todo.sh"
-alias clr="clear"
 
 # dev environment shortcuts
 alias nrs="npm run start"
