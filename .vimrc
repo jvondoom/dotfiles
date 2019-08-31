@@ -14,6 +14,9 @@ Plugin 'VundleVim/Vundle.vim'
 " Keep Plugin commands between vundle#begin/end.
 " plugin on GitHub repo
 
+" Simpler way to navigate files
+Plugin 'easymotion/vim-easymotion'
+
 " Vim status bar
 Plugin 'vim-airline/vim-airline'
 Plugin 'vim-airline/vim-airline-themes'
@@ -90,6 +93,20 @@ cnoreabbrev WQ wq
 cnoreabbrev W w
 cnoreabbrev Q q
 cnoreabbrev Qall qall
+
+"*****************************************************************************
+"" Custom Shortcuts
+"*****************************************************************************
+" Changed the leader map from default '\' to ','
+let mapleader = "\,"
+
+" Opens a new tab and loads the .vimrc file
+nnoremap <leader>ev :tabnew $MYVIMRC<CR>
+" Opens a new tab and loads the .zshrc file
+nnoremap <leader>ez :tabnew ~/.zshrc<CR>
+
+" Shortcut for opening a new tab
+nnoremap tn :tabnew<CR>
 
 " *** THINGS FOR FINDING FILES ***
 " Required for :find command to find files inside current directory
