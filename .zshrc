@@ -93,6 +93,8 @@ source $ZSH/oh-my-zsh.sh
 # terminal commands shortcuts
 alias clr="clear"
 alias rf="rm -rf"
+alias zshconfig="vim ~/.zshrc"
+alias vimconfig="vim ~/.vimrc"
 
 # terminal app shortcuts
 alias go-web="w3m duckduckgo.com"
