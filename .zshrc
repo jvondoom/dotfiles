@@ -115,7 +115,7 @@ alias gpul="git pull"
 alias gres="git reset --hard"
 
 # function to create folder and go into it
-function mkdircd () { mkdir -p "$@" && eval cd "\"\$$#\""; }
+function mkdircd () { mkdir -p "$@" && cd $_ }
 
 export PATH="$PATH:$HOME/npm/bin"
 export NVM_DIR="$HOME/.nvm"
