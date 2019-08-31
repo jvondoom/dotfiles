@@ -103,6 +103,8 @@ set incsearch
 
 " Reduce the update time for Git Gutter plugin
 set updatetime=100
+" Show Git Gutter column always
+set signcolumn=yes
 
 set number
 set relativenumber
