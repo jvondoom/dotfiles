@@ -82,14 +82,13 @@ source $ZSH/oh-my-zsh.sh
 # ssh
 # export SSH_KEY_PATH="~/.ssh/rsa_id"
 
+# -----------------------------------------------------------------
+#                               aliases
+# -----------------------------------------------------------------
 # Set personal aliases, overriding those provided by oh-my-zsh libs,
 # plugins, and themes. Aliases can be placed here, though oh-my-zsh
 # users are encouraged to define aliases within the ZSH_CUSTOM folder.
 # For a full list of active aliases, run `alias`.
-#
-# Example aliases
-# alias zshconfig="mate ~/.zshrc"
-# alias ohmyzsh="mate ~/.oh-my-zsh"
 
 # terminal commands shortcuts
 alias go-web="w3m duckduckgo.com"
@@ -109,6 +108,9 @@ alias gcko="git checkout"
 alias gpus="git push"
 alias gpul="git pull"
 alias gres="git reset --hard"
+
+# function to create folder and go into it
+function mkdircd () { mkdir -p "$@" && eval cd "\"\$$#\""; }
 
 export PATH="$PATH:$HOME/npm/bin"
 export NVM_DIR="$HOME/.nvm"
