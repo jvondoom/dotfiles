@@ -108,15 +108,39 @@ set number
 set relativenumber
 set laststatus=2
 
+set smartindent
+set tabstop=2
+set shiftwidth=2
+set expandtab
+
+" Airline Plugin Settings
+" ----------------------
+" Reduce the lag between Insert and Normal mode
+set ttimeoutlen=10
+
+" Hides default mode indicator
+set noshowmode
+
+" Airline Theme
+let g:airline_theme='base16'
+
+" Loads Airline powerline fonts
+let g:airline_powerline_fonts = 1
+
+"Always display tabline and changes it's display settings
+let g:airline#extensions#tabline#enabled = 1
+let g:airline#extensions#tabline#formatter = 'unique_tail'
+
+
+" Syntastic Plugin Settings
+" -------------------------
 set statusline+=%#warningmsg#
 set statusline+=%{SyntasticStatuslineFlag()}
 set statusline+=%*
-
 let g:syntastic_always_populate_loc_list = 1
 let g:syntastic_auto_loc_list = 1
 let g:syntastic_check_on_wq = 0
 let g:mustache_abbreviations = 1
-
 let g:syntastic_html_tidy_ignore_errors = ['<svg> is not recognized',
             \ '<use> is not recognized',
             \ 'trimming empty <',
@@ -126,12 +150,6 @@ let g:syntastic_html_tidy_ignore_errors = ['<svg> is not recognized',
             \ 'discarding unexpected </svg>',
             \ 'discarding unexpected </use>'
 \]
-
-set smartindent
-set tabstop=2
-set shiftwidth=2
-set expandtab
-
 
 "Enable <++> to be a jump point
 inoremap <Space><Space> <Esc>/<++><Enter>"_c4l
