@@ -20,7 +20,7 @@ POWERLEVEL9K_RPROMPT_ON_NEWLINE=true
 POWERLEVEL9K_MULTILINE_FIRST_PROMPT_PREFIX="%F{blue}\u256D\u2500%f"
 POWERLEVEL9K_MULTILINE_LAST_PROMPT_PREFIX="%F{blue}\u2570\uf460%f "
 POWERLEVEL9K_LEFT_PROMPT_ELEMENTS=(os_icon dir dir_writable vcs)
-POWERLEVEL9K_RIGHT_PROMPT_ELEMENTS=(todo root_indicator background_jobs time battery)
+POWERLEVEL9K_RIGHT_PROMPT_ELEMENTS=(root_indicator vi_mode todo battery)
 
 # Uncomment the following line to use case-sensitive completion.
 # CASE_SENSITIVE="true"
@@ -60,6 +60,9 @@ POWERLEVEL9K_RIGHT_PROMPT_ELEMENTS=(todo root_indicator background_jobs time bat
 # Would you like to use another custom folder than $ZSH/custom?
 # ZSH_CUSTOM=/path/to/new-custom-folder
 
+# -----------------------------------------------------------------
+#                               plugins
+# -----------------------------------------------------------------
 # Which plugins would you like to load? (plugins can be found in ~/.oh-my-zsh/plugins/*)
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
