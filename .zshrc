@@ -12,9 +12,15 @@ export ZSH=~/.oh-my-zsh
 #ZSH_THEME="robbyrussell"
 ZSH_THEME="powerlevel9k/powerlevel9k"
 
-POWERLEVEL9K_LEFT_PROMPT_ELEMENTS=(os_icon dir vcs)
-POWERLEVEL9K_RIGHT_PROMPT_ELEMENTS=(todo root_indicator background_jobs time battery)
 POWERLEVEL9K_MODE='nerdfont-complete'
+
+# PowerLevel9k Promp Customization
+POWERLEVEL9K_PROMPT_ON_NEWLINE=true
+POWERLEVEL9K_RPROMPT_ON_NEWLINE=true
+POWERLEVEL9K_MULTILINE_FIRST_PROMPT_PREFIX="%F{blue}\u256D\u2500%f"
+POWERLEVEL9K_MULTILINE_LAST_PROMPT_PREFIX="%F{blue}\u2570\uf460%f "
+POWERLEVEL9K_LEFT_PROMPT_ELEMENTS=(os_icon dir dir_writable vcs)
+POWERLEVEL9K_RIGHT_PROMPT_ELEMENTS=(todo root_indicator background_jobs time battery)
 
 # Uncomment the following line to use case-sensitive completion.
 # CASE_SENSITIVE="true"
