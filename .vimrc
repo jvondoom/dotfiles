@@ -66,6 +66,9 @@ Plugin 'mxw/vim-jsx'
 " JS Syntax Highlighter
 Plugin 'pangloss/vim-javascript'
 
+" Display file icons
+Plugin 'ryanoasis/vim-devicons'
+
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
 filetype plugin on           " required
