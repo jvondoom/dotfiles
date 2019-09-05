@@ -81,7 +81,7 @@ filetype plugin on           " required
 " :PluginClean      - confirms removal of unused plugins; append `!` to auto-approve removal
 
 syntax on
-colorscheme dank-neon
+colorscheme neuromancer
 
 "*****************************************************************************
 "" Abbreviations
