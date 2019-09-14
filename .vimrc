@@ -1,18 +1,30 @@
+" -------------------------------------------
+"
+"   ▓▓▓『ＶＩＭ Ｃｏｎｆｉｇ Ｆｉｌｅ』▓▓▓
+"
+" -------------------------------------------
+
 set nocompatible              " be iMproved, required
 filetype off                  " required
 
-" set the runtime path to include Vundle and initialize
+
+" ------------------
+" ◢〘Ｖｕｎｄｌｅ〙◣
+" ------------------
+" Vundle brief help
+" :PluginList       - lists configured plugins
+" :PluginInstall    - installs plugins; append `!` to update or just
+" :PluginUpdate
+" :PluginSearch foo - searches for foo; append `!` to refresh local cache
+" :PluginClean      - confirms removal of unused plugins; append `!` to auto-approve removal
+
+" Set the runtime path to include Vundle and initialize
 set rtp+=~/.vim/bundle/Vundle.vim
+" Keep Plugin commands between vundle#begin/end.
 call vundle#begin()
-" alternatively, pass a path where Vundle should install plugins
-"call vundle#begin('~/some/path/here')
 
 " let Vundle manage Vundle, required
 Plugin 'VundleVim/Vundle.vim'
-
-" The following are examples of different formats supported.
-" Keep Plugin commands between vundle#begin/end.
-" plugin on GitHub repo
 
 " Simpler way to navigate files
 Plugin 'easymotion/vim-easymotion'
@@ -68,25 +80,22 @@ Plugin 'pangloss/vim-javascript'
 
 " Display file icons
 Plugin 'ryanoasis/vim-devicons'
+"-----------------------------
+" Leave this one at the end
+"-----------------------------
 
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
 filetype plugin on           " required
 
-" Brief help
-" :PluginList       - lists configured plugins
-" :PluginInstall    - installs plugins; append `!` to update or just
-" :PluginUpdate
-" :PluginSearch foo - searches for foo; append `!` to refresh local cache
-" :PluginClean      - confirms removal of unused plugins; append `!` to auto-approve removal
-
 syntax on
-colorscheme neuromancer
+colorscheme neuromancer      " Theme
 
-"*****************************************************************************
-"" Abbreviations
-"*****************************************************************************
-"" no one is really happy until you have this shortcuts
+
+"-----------------------------------------------------
+"           ◢〘Ａｂｂｒｅｖｉａｔｉｏｎｓ〙◣
+"-----------------------------------------------------
+" No one is really happy until you have this shortcuts
 cnoreabbrev W! w!
 cnoreabbrev Q! q!
 cnoreabbrev Qall! qall!
@@ -98,9 +107,10 @@ cnoreabbrev W w
 cnoreabbrev Q q
 cnoreabbrev Qall qall
 
-"*****************************************************************************
-"" Custom Shortcuts
-"*****************************************************************************
+
+"-----------------------------------------------
+"     ◢〘Ｃｕｓｔｏｍ Ｓｈｏｒｔｃｕｔｓ〙◣
+"-----------------------------------------------
 " Changed the leader map from default '\' to ','
 let mapleader = "\,"
 
@@ -112,7 +122,14 @@ nnoremap <leader>ez :tabnew ~/.zshrc<CR>
 " Shortcut for opening a new tab
 nnoremap tn :tabnew<CR>
 
-" *** THINGS FOR FINDING FILES ***
+" Shortcut for spliting the screen
+nnoremap <leader>sp <C-w>v<C-w>l
+nnoremap <leader>spv <C-w>s<C-w>j
+
+"Enable <++> to be a jump point
+inoremap <Space><Space> <Esc>/<++><Enter>"_c4l
+
+" *** 〖Ｔｈｉｎｇｓ ｆｏｒ Ｆｉｎｄｉｎｇ Ｆｉｌｅｓ〗 ***
 " Required for :find command to find files inside current directory
 set path+=**
 
@@ -134,8 +151,16 @@ set tabstop=2
 set shiftwidth=2
 set expandtab
 
-" Airline Plugin Settings
-" ----------------------
+" File browser tweaks
+let g:netrw_banner=0    " disable annoying banner
+let g:netrw_liststyle=3 " tree view
+
+
+" -------------------------------------------
+"   ◢〘Ｐｌｕｇｉｎｓ Ｓｅｔｔｉｎｇｓ〙◣
+" -------------------------------------------
+
+" ﹝Ａｉｒｌｉｎｅ Ｐｌｕｇｉｎ Ｓｅｔｔｉｎｇｓ﹞
 " Reduce the lag between Insert and Normal mode
 set ttimeoutlen=10
 " Hides default mode indicator
@@ -149,8 +174,8 @@ let g:airline#extensions#tabline#enabled = 1
 let g:airline#extensions#tabline#formatter = 'unique_tail'
 
 
-" Syntastic Plugin Settings
-" -------------------------
+" ﹝Ｓｙｎｔａｓｔｉｃ Ｐｌｕｇｉｎ Ｓｅｔｔｉｎｇｓ﹞
+" ---------------------------------------------------
 set statusline+=%#warningmsg#
 set statusline+=%{SyntasticStatuslineFlag()}
 set statusline+=%*
@@ -168,19 +193,19 @@ let g:syntastic_html_tidy_ignore_errors = ['<svg> is not recognized',
             \ 'discarding unexpected </use>'
 \]
 
-"Enable <++> to be a jump point
-inoremap <Space><Space> <Esc>/<++><Enter>"_c4l
 
-" File browser tweaks
-let g:netrw_banner=0    " disable annoying banner
-let g:netrw_liststyle=3 " tree view
-
+" ﹝Ｐｒｅｔｔｉｅｒ Ｐｌｕｇｉｎ Ｓｅｔｔｉｎｇｓ﹞
+" -------------------------------------------------
 " Prettier runs before saving
 let g:prettier#autoformat = 0
+" Indicates to Prettier which files to run
 autocmd BufWritePre *.js,*.jsx,*.mjs,*.ts,*.tsx,*.css,*.less,*.scss,*.json,*.graphql,*.md,*.vue,*.yaml,*.html PrettierAsync
 
-" *** OLD SETTINGS ***
-" --------------------
+
+
+
+" *** 〖ＯＬＤ ＳＥＴＴＩＮＧＳ〗 ***
+" -----------------------------------
 " For proper tabbing and bracket insertion
 " Replaced with Auto Pairs plugin
 " mapping left here for legacy reference
