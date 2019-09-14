@@ -95,7 +95,8 @@ colorscheme neuromancer      " Theme
 "-----------------------------------------------------
 "              ◢〘Ａｂｂｒｅｖｉａｔｉｏｎｓ〙◣
 "-----------------------------------------------------
-" No one is really happy until you have this shortcuts
+" Abbreviations Section
+" No one is really happy until you have this shortcuts!
 cnoreabbrev W! w!
 cnoreabbrev Q! q!
 cnoreabbrev Qall! qall!
@@ -111,6 +112,8 @@ cnoreabbrev Qall qall
 "-----------------------------------------------
 "        ◢〘Ｃｕｓｔｏｍ Ｓｈｏｒｔｃｕｔｓ〙◣
 "-----------------------------------------------
+" Custom Shortcuts Section
+" for a better experience
 " Changed the leader map from default '\' to ','
 let mapleader = "\,"
 
@@ -159,6 +162,7 @@ let g:netrw_liststyle=3 " tree view
 " -------------------------------------------
 "       ◢〘Ｐｌｕｇｉｎｓ Ｓｅｔｔｉｎｇｓ〙◣
 " -------------------------------------------
+" Plugins Settings Section
 
 " ﹝Ａｉｒｌｉｎｅ Ｐｌｕｇｉｎ Ｓｅｔｔｉｎｇｓ﹞
 " Reduce the lag between Insert and Normal mode
@@ -176,6 +180,7 @@ let g:airline#extensions#tabline#formatter = 'unique_tail'
 
 " ﹝Ｓｙｎｔａｓｔｉｃ Ｐｌｕｇｉｎ Ｓｅｔｔｉｎｇｓ﹞
 " -------------------------------------------
+" Syntastic Settings
 set statusline+=%#warningmsg#
 set statusline+=%{SyntasticStatuslineFlag()}
 set statusline+=%*
