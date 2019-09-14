@@ -1,11 +1,11 @@
-import React from 'react';
+import React from 'react'
 
 const x = props => {
   return (
-    <div className="<++>">
+    <div className='<++>'>
       <++>
     </div>
-  );
-};
+  )
+}
 
-export default <++>;
+export default <++>
