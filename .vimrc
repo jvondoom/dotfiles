@@ -57,11 +57,11 @@ Plugin 'ntpeters/vim-better-whitespace'
 " EditorConfig plugin
 Plugin 'editorconfig/editorconfig-vim'
 
-" Prettier plugin
-Plugin 'prettier/vim-prettier'
-
 " Checks syntax errors
 Plugin 'syntastic'
+
+" Run Lint and Fixer while coding
+Plugin 'dense-analysis/ale'
 
 " Languages plugins
 " -----------------
@@ -198,13 +198,15 @@ let g:syntastic_html_tidy_ignore_errors = ['<svg> is not recognized',
             \ 'discarding unexpected </use>'
 \]
 
-
-" ﹝Ｐｒｅｔｔｉｅｒ Ｐｌｕｇｉｎ Ｓｅｔｔｉｎｇｓ﹞
-" ------------------------------------------
-" Prettier runs before saving
-let g:prettier#autoformat = 0
-" Indicates to Prettier which files to run
-autocmd BufWritePre *.js,*.jsx,*.mjs,*.ts,*.tsx,*.css,*.less,*.scss,*.json,*.graphql,*.md,*.vue,*.yaml,*.html PrettierAsync
+" ﹝ＡＬＥ Ｐｌｕｇｉｎ Ｓｅｔｔｉｎｇｓ﹞
+" ----------------------------------------
+" ALE linter and fixer definition
+let g:ale_linters = {
+\   'javascript': ['standard'],
+\}
+let g:ale_fixers = {'javascript': ['prettier', 'standard']}
+" Custom Shortcut to run fixer
+nnoremap <leader>p :ALEFix<CR>
 
 
 " ﹝Ｇｉｔ Ｇｕｔｔｅｒ Ｐｌｕｇｉｎ Ｓｅｔｔｉｎｇｓ﹞
