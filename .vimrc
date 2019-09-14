@@ -1,6 +1,6 @@
 " -------------------------------------------
 "
-"   ▓▓▓『ＶＩＭ Ｃｏｎｆｉｇ Ｆｉｌｅ』▓▓▓
+"      ▓▓▓『ＶＩＭ Ｃｏｎｆｉｇ Ｆｉｌｅ』▓▓▓
 "
 " -------------------------------------------
 
@@ -8,9 +8,9 @@ set nocompatible              " be iMproved, required
 filetype off                  " required
 
 
-" ------------------
-" ◢〘Ｖｕｎｄｌｅ〙◣
-" ------------------
+" -------------------
+"   ◢〘Ｖｕｎｄｌｅ〙◣
+" -------------------
 " Vundle brief help
 " :PluginList       - lists configured plugins
 " :PluginInstall    - installs plugins; append `!` to update or just
@@ -93,7 +93,7 @@ colorscheme neuromancer      " Theme
 
 
 "-----------------------------------------------------
-"           ◢〘Ａｂｂｒｅｖｉａｔｉｏｎｓ〙◣
+"              ◢〘Ａｂｂｒｅｖｉａｔｉｏｎｓ〙◣
 "-----------------------------------------------------
 " No one is really happy until you have this shortcuts
 cnoreabbrev W! w!
@@ -109,7 +109,7 @@ cnoreabbrev Qall qall
 
 
 "-----------------------------------------------
-"     ◢〘Ｃｕｓｔｏｍ Ｓｈｏｒｔｃｕｔｓ〙◣
+"       ◢〘Ｃｕｓｔｏｍ Ｓｈｏｒｔｃｕｔｓ〙◣
 "-----------------------------------------------
 " Changed the leader map from default '\' to ','
 let mapleader = "\,"
@@ -157,7 +157,7 @@ let g:netrw_liststyle=3 " tree view
 
 
 " -------------------------------------------
-"   ◢〘Ｐｌｕｇｉｎｓ Ｓｅｔｔｉｎｇｓ〙◣
+"       ◢〘Ｐｌｕｇｉｎｓ Ｓｅｔｔｉｎｇｓ〙◣
 " -------------------------------------------
 
 " ﹝Ａｉｒｌｉｎｅ Ｐｌｕｇｉｎ Ｓｅｔｔｉｎｇｓ﹞
@@ -175,7 +175,7 @@ let g:airline#extensions#tabline#formatter = 'unique_tail'
 
 
 " ﹝Ｓｙｎｔａｓｔｉｃ Ｐｌｕｇｉｎ Ｓｅｔｔｉｎｇｓ﹞
-" ---------------------------------------------------
+" -------------------------------------------
 set statusline+=%#warningmsg#
 set statusline+=%{SyntasticStatuslineFlag()}
 set statusline+=%*
@@ -195,7 +195,7 @@ let g:syntastic_html_tidy_ignore_errors = ['<svg> is not recognized',
 
 
 " ﹝Ｐｒｅｔｔｉｅｒ Ｐｌｕｇｉｎ Ｓｅｔｔｉｎｇｓ﹞
-" -------------------------------------------------
+" ------------------------------------------
 " Prettier runs before saving
 let g:prettier#autoformat = 0
 " Indicates to Prettier which files to run
