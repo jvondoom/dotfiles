@@ -208,7 +208,7 @@ autocmd BufWritePre *.js,*.jsx,*.mjs,*.ts,*.tsx,*.css,*.less,*.scss,*.json,*.gra
 
 
 " ﹝Ｇｉｔ Ｇｕｔｔｅｒ Ｐｌｕｇｉｎ Ｓｅｔｔｉｎｇｓ﹞
-" ------------------------------------------
+" --------------------------------------------
 " Display Git Gutter bar always
 set signcolumn=yes
 
