@@ -27,7 +27,7 @@ source ~/antigen.zsh
 # Loads oh-my-zsh library
 antigen use oh-my-zsh
 
-# 〘ＰＬＵＧＩＮＳ〙
+# ﹝ＰＬＵＧＩＮＳ﹞
 # -----------------
 antigen bundle git
 antigen bundle vi-mode
@@ -35,7 +35,7 @@ antigen bundle zsh-users/zsh-syntax-highlighting
 antigen bundle zsh-users/zsh-autosuggestions
 
 
-# 〘ＴＨＥＭＥ〙
+# ﹝ＴＨＥＭＥ﹞
 # -------------
 antigen theme bhilburn/powerlevel9k powerlevel9k
 
