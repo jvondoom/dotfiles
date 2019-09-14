@@ -56,6 +56,7 @@ alias vimconfig="vim ~/.vimrc"
 # terminal app shortcuts
 alias go-web="w3m duckduckgo.com"
 alias t="todo.sh"
+alias add-gitignore="npx add-gitignore"
 
 # dev environment shortcuts
 alias nrs="npm run start"
