@@ -6,7 +6,7 @@
 
 
 # ------------------------------------------------------------
-#   ◢〘ＰＯＷＥＲＬＥＶＥＬ９Ｋ Ｔｈｅｍｅ Ｓｅｔｔｉｎｇｓ〙◣
+#      ◢〘ＰＯＷＥＲＬＥＶＥＬ９Ｋ Ｔｈｅｍｅ Ｓｅｔｔｉｎｇｓ〙◣
 # ------------------------------------------------------------
 # PowerLevel9k NerdFont Settings
 POWERLEVEL9K_MODE='nerdfont-complete'
@@ -19,7 +19,7 @@ POWERLEVEL9K_LEFT_PROMPT_ELEMENTS=(dir dir_writable vcs)
 POWERLEVEL9K_RIGHT_PROMPT_ELEMENTS=(root_indicator vi_mode todo battery)
 
 # ---------------------------------------
-#   ◢〘Ａｎｔｉｇｅｎ Ｓｅｔｔｉｎｇｓ〙◣
+#     ◢〘Ａｎｔｉｇｅｎ Ｓｅｔｔｉｎｇｓ〙◣
 # ---------------------------------------
 # Loads Antigen
 source ~/antigen.zsh
@@ -28,7 +28,7 @@ source ~/antigen.zsh
 antigen use oh-my-zsh
 
 # ﹝ＰＬＵＧＩＮＳ﹞
-# -----------------
+# ---------------
 antigen bundle git
 antigen bundle vi-mode
 antigen bundle zsh-users/zsh-syntax-highlighting
@@ -36,7 +36,7 @@ antigen bundle zsh-users/zsh-autosuggestions
 
 
 # ﹝ＴＨＥＭＥ﹞
-# -------------
+# -----------
 antigen theme bhilburn/powerlevel9k powerlevel9k
 
 # Last line for Antigen
@@ -82,7 +82,7 @@ alias lt='ls --tree'
 function mkdircd () { mkdir -p "$@" && cd $_ }
 
 # ---------------------------------
-#   ◢〘ＩＮＴＲＯ ＭＥＳＳＡＧＥ〙◣
+#    ◢〘ＩＮＴＲＯ ＭＥＳＳＡＧＥ〙◣
 # ---------------------------------
 local RED='\033[0;31m' # Red Color
 local str width length
