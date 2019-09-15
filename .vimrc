@@ -76,10 +76,10 @@ Plugin 'digitaltoad/vim-pug'
 Plugin 'ekalinin/Dockerfile.vim'
 " Mustache and Handlebars Syntax Highlighter
 Plugin 'mustache/vim-mustache-handlebars'
-" JSX Syntax Highlighter
-Plugin 'mxw/vim-jsx'
 " JS Syntax Highlighter
 Plugin 'pangloss/vim-javascript'
+" JSX Syntax Highlighter
+Plugin 'mxw/vim-jsx'
 
 " Display file icons
 Plugin 'ryanoasis/vim-devicons'
@@ -222,7 +222,10 @@ set signcolumn=yes
 
 " ﹝Ｍａｒｋｄｏｗｎ Ｐｒｅｖｉｅｗ Ｓｅｔｔｉｎｇｓ﹞
 " -------------------------------------------
+" Use grip for the preview
 let vim_markdown_preview_github=1
+" Refreshes the preview on write
+" let vim_markdown_preview_toggle=2
 
 
 " *** 〖ＯＬＤ ＳＥＴＴＩＮＧＳ〗 ***
