@@ -168,6 +168,7 @@ let g:netrw_liststyle=3 " tree view
 " Plugins settings section
 
 " ﹝Ａｉｒｌｉｎｅ Ｐｌｕｇｉｎ Ｓｅｔｔｉｎｇｓ﹞
+" ----------------------------------------
 " Reduce the lag between Insert and Normal mode
 set ttimeoutlen=10
 " Hides default mode indicator
@@ -204,7 +205,7 @@ let g:syntastic_html_tidy_ignore_errors = ['<svg> is not recognized',
 \]
 
 " ﹝ＡＬＥ Ｐｌｕｇｉｎ Ｓｅｔｔｉｎｇｓ﹞
-" ----------------------------------------
+" ---------------------------------
 " ALE linter and fixer definition
 let g:ale_linters = {
 \   'javascript': ['standard'],
@@ -220,7 +221,7 @@ nnoremap <leader>p :ALEFix<CR>
 set signcolumn=yes
 
 " ﹝Ｍａｒｋｄｏｗｎ Ｐｒｅｖｉｅｗ Ｓｅｔｔｉｎｇｓ﹞
-" -----------------
+" -------------------------------------------
 let vim_markdown_preview_github=1
 
 
