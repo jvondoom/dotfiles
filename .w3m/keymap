@@ -1,0 +1,4 @@
+# Changed the settings to be similar
+# to Vimium
+keymap d NEXT_PAGE
+keymap u PREV_PAGE
