@@ -63,6 +63,9 @@ Plugin 'syntastic'
 " Run Lint and Fixer while coding
 Plugin 'dense-analysis/ale'
 
+" Markdown preview
+Plugin 'JamshedVesuna/vim-markdown-preview'
+
 " Languages plugins
 " -----------------
 " CSS Color Highlighter
@@ -162,7 +165,7 @@ let g:netrw_liststyle=3 " tree view
 " -------------------------------------------
 "       ◢〘Ｐｌｕｇｉｎｓ Ｓｅｔｔｉｎｇｓ〙◣
 " -------------------------------------------
-" Plugins Settings Section
+" Plugins settings section
 
 " ﹝Ａｉｒｌｉｎｅ Ｐｌｕｇｉｎ Ｓｅｔｔｉｎｇｓ﹞
 " Reduce the lag between Insert and Normal mode
@@ -215,6 +218,10 @@ nnoremap <leader>p :ALEFix<CR>
 " --------------------------------------------
 " Display Git Gutter bar always
 set signcolumn=yes
+
+" ﹝Ｍａｒｋｄｏｗｎ Ｐｒｅｖｉｅｗ Ｓｅｔｔｉｎｇｓ﹞
+" -----------------
+let vim_markdown_preview_github=1
 
 
 " *** 〖ＯＬＤ ＳＥＴＴＩＮＧＳ〗 ***
