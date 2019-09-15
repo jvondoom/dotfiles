@@ -88,6 +88,7 @@ Name | Funcion | Notes
 
 - [add-gitignore](https://github.com/TejasQ/add-gitignore) - Adds custom `.gitignore` file to project.
 - [lsd](https://github.com/Peltoche/lsd) - Colorizes `ls` output and add icons.
+- [mpv](https://mpv.io/) - CLI enabled media player
 - [ranger](http://www.rosipov.com/blog/ranger-the-cli-file-manager/) - Terminal File Manager.
 - [RTV](https://github.com/michael-lazar/rtv) - [Reddit](https://old.reddit.com) Terminal Viewer. **No longer maintained**
 - [todo.txt](https://github.com/todotxt/todo.txt-cli) - todo.txt manager.
