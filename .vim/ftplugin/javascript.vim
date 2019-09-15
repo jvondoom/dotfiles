@@ -21,5 +21,5 @@ inoremap <leader>cls className=''<Esc>F'a
 inoremap <leader>a <a href=''><++></a><Esc>F'i
 
 "Other Shortcuts
-inoremap <leader>imp import x from '<++>';<Esc>Fxs
-inoremap <leader>exp export x <++>;<Esc>Fxs
+inoremap <leader>imp import x from '<++>'<Esc>Fxs
+inoremap <leader>exp export x <++><Esc>Fxs
