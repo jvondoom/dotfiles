@@ -180,6 +180,9 @@ let g:airline_powerline_fonts = 1
 " Always display tabline and changes it's display settings
 let g:airline#extensions#tabline#enabled = 1
 let g:airline#extensions#tabline#formatter = 'unique_tail'
+" Customized separators
+let g:airline_left_sep = "\uE0C6"
+let g:airline_right_sep = "\uE0C7"
 " Enables ALE errors
 let g:airline#extensions#ale#enabled = 1
 
