@@ -57,10 +57,8 @@ Plugin 'ntpeters/vim-better-whitespace'
 " EditorConfig plugin
 Plugin 'editorconfig/editorconfig-vim'
 
-" Checks syntax errors
-Plugin 'syntastic'
-
 " Run Lint and Fixer while coding
+" Checks syntax errors
 Plugin 'dense-analysis/ale'
 
 " Markdown preview
@@ -185,27 +183,6 @@ let g:airline_left_sep = "\uE0C6"
 let g:airline_right_sep = "\uE0C7"
 " Enables ALE errors
 let g:airline#extensions#ale#enabled = 1
-
-
-" ﹝Ｓｙｎｔａｓｔｉｃ Ｐｌｕｇｉｎ Ｓｅｔｔｉｎｇｓ﹞
-" -------------------------------------------
-" Syntastic Settings
-set statusline+=%#warningmsg#
-set statusline+=%{SyntasticStatuslineFlag()}
-set statusline+=%*
-let g:syntastic_always_populate_loc_list = 1
-let g:syntastic_auto_loc_list = 1
-let g:syntastic_check_on_wq = 0
-let g:mustache_abbreviations = 1
-let g:syntastic_html_tidy_ignore_errors = ['<svg> is not recognized',
-            \ '<use> is not recognized',
-            \ 'trimming empty <',
-            \ '<img> lacks "src" ',
-            \ 'discarding unexpected <svg>',
-            \ 'discarding unexpected <use>',
-            \ 'discarding unexpected </svg>',
-            \ 'discarding unexpected </use>'
-\]
 
 " ﹝ＡＬＥ Ｐｌｕｇｉｎ Ｓｅｔｔｉｎｇｓ﹞
 " ---------------------------------
