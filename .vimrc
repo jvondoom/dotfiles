@@ -77,7 +77,7 @@ Plugin 'mustache/vim-mustache-handlebars'
 " JS Syntax Highlighter
 Plugin 'pangloss/vim-javascript'
 " JSX Syntax Highlighter
-Plugin 'mxw/vim-jsx'
+Plugin 'maxmellon/vim-jsx-pretty'
 
 " Display file icons
 Plugin 'ryanoasis/vim-devicons'
