@@ -188,12 +188,21 @@ let g:airline#extensions#ale#enabled = 1
 " ---------------------------------
 " ALE linter and fixer definition
 let g:ale_linters = {
+\   'css': ['csslint'],
 \   'javascript': ['standard'],
+\   'scss': ['scsslint'],
+\   'vim': ['vint'],
 \}
-let g:ale_fixers = {'javascript': ['prettier', 'standard']}
+let g:ale_fixers = {
+\   'css': ['prettier'],
+\   'html': ['prettier'],
+\   'javascript': ['standard'],
+\   'scss': ['prettier'],
+\}
+let g:ale_sign_error = ''
+let g:ale_sign_warning = ''
 " Custom Shortcut to run fixer
-nnoremap <leader>p :ALEFix<CR>
-
+nmap <leader>p <Plug>(ale_fix)
 
 " ﹝Ｇｉｔ Ｇｕｔｔｅｒ Ｐｌｕｇｉｎ Ｓｅｔｔｉｎｇｓ﹞
 " --------------------------------------------
