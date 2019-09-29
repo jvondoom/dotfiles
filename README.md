@@ -59,7 +59,7 @@ _Install it before copying the `.zshcr` file._
 ### Plugins
 Name | Funcion | Notes
 --- | --- | ---
-[ALE](https://github.com/dense-analysis/ale) | Fixer and Linter | requires `prettier` and `JS standard`
+[ALE](https://github.com/dense-analysis/ale) | Fixer and Linter | requires `prettier`, `csslint`, `sccslint`, `vint` and `JS standard`
 [auto-pairs](https://github.com/jiangmiao/auto-pairs) | Closes symbols
 [Dockerfile.vim](https://github.com/ekalinin/Dockerfile.vim) | Dockerfile syntax highlighter
 [easymotion](https://github.com/easymotion/vim-easymotion) | Easier way to navigate
