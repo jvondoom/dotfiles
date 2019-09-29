@@ -73,7 +73,7 @@ Name | Funcion | Notes
 [vim-fugitive](https://github.com/tpope/vim-fugitive) | Git wrapper
 [vim-gitgutter](https://github.com/airblade/vim-gitgutter) | Show git diff on file
 [vim-javascript](https://github.com/pangloss/vim-javascript) | JS syntax plugin
-[vim-jsx](https://github.com/mxw/vim-jsx) | JSX syntax plugin | Install after JS plugin
+[maxmellon/vim-jsx-pretty](https://github.com/MaxMEllon/vim-jsx-pretty) | React JSX syntax highlighting | Install after JS plugin
 [vim-markdown-preview](https://github.com/JamshedVesuna/vim-markdown-preview) | [Markdown](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet) preview | Requires [Grip](https://github.com/joeyespo/grip) installed
 [vim-mustache-handlebars](https://github.com/mustache/vim-mustache-handlebars) | [Handlerbars](https://handlebarsjs.com/) syntax highlighter
 [vim-pug](https://github.com/digitaltoad/vim-pug) | [Pug](https://pugjs.org/api/getting-started.html) syntax highlighter
