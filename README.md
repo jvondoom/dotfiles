@@ -65,7 +65,6 @@ Name | Funcion | Notes
 [easymotion](https://github.com/easymotion/vim-easymotion) | Easier way to navigate
 [editorconfig-vim](https://github.com/editorconfig/editorconfig-vim) | Editorconfig plugin for Vim
 [surround.vim](https://github.com/tpope/vim-surround) | Puts quotes/parentheses/brakcets around blocks
-[syntastic](https://github.com/vim-syntastic/syntastic) | Syntax checker
 [vim-airline](https://github.com/vim-airline/vim-airline) | Status/tabline | 
 [vim-better-whitespaces](https://github.com/ntpeters/vim-better-whitespace) | Checks for whitespaces
 [vim-commentary](https://github.com/tpope/vim-commentary) | Add/remove comments easier
