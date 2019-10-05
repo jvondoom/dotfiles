@@ -66,6 +66,7 @@ alias nrd="npm run develop"
 alias gatdev="gatsby develop"
 
 # git shortcuts
+alias gcl="git clone"
 alias ga="git add"
 alias gc="git commit"
 alias gs="git status"
