@@ -52,6 +52,8 @@ antigen apply
 # terminal commands shortcuts
 alias clr="clear"
 alias rf="rm -rf"
+alias hm="cd ~ && clear"
+alias desk="cd ~/Desktop && clear"
 alias zshconfig="vim ~/.zshrc"
 alias vimconfig="vim ~/.vimrc"
 
