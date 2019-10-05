@@ -18,7 +18,7 @@ POWERLEVEL9K_MULTILINE_LAST_PROMPT_PREFIX="%F{blue}\u2570\uf460%f "
 POWERLEVEL9K_LEFT_SEGMENT_SEPARATOR=$'\uE0c4'
 POWERLEVEL9K_RIGHT_SEGMENT_SEPARATOR=$'\uE0c5'
 POWERLEVEL9K_LEFT_PROMPT_ELEMENTS=(dir dir_writable vcs)
-POWERLEVEL9K_RIGHT_PROMPT_ELEMENTS=(root_indicator vi_mode todo battery)
+POWERLEVEL9K_RIGHT_PROMPT_ELEMENTS=(root_indicator vi_mode todo os_icon battery)
 
 # ---------------------------------------
 #     ◢〘Ａｎｔｉｇｅｎ Ｓｅｔｔｉｎｇｓ〙◣
