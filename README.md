@@ -64,6 +64,7 @@ Name | Funcion | Notes
 [Dockerfile.vim](https://github.com/ekalinin/Dockerfile.vim) | Dockerfile syntax highlighter
 [easymotion](https://github.com/easymotion/vim-easymotion) | Easier way to navigate
 [editorconfig-vim](https://github.com/editorconfig/editorconfig-vim) | Editorconfig plugin for Vim
+[emmet-vim](https://github.com/mattn/emmet-vim) | HTML and CSS abbreviation plugin | Uses [Emmet](https://emmet.io/); works in JSX
 [surround.vim](https://github.com/tpope/vim-surround) | Puts quotes/parentheses/brakcets around blocks
 [vim-airline](https://github.com/vim-airline/vim-airline) | Status/tabline | 
 [vim-better-whitespaces](https://github.com/ntpeters/vim-better-whitespace) | Checks for whitespaces
