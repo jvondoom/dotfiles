@@ -66,6 +66,8 @@ Plugin 'JamshedVesuna/vim-markdown-preview'
 
 " Languages plugins
 " -----------------
+" HTML structure helper
+Plugin 'mattn/emmet-vim'
 " CSS Color Highlighter
 Plugin 'ap/vim-css-color'
 " Pug Syntax Highlighter
