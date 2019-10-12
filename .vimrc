@@ -46,7 +46,7 @@ Plugin 'tpope/vim-commentary'
 " Auto insert/delete brackets/parens/quotes in pairs
 Plugin 'jiangmiao/auto-pairs'
 
-" Put quotes/parentheses/brakcets around blocks
+" Wrap blocks with quotes/parentheses/brakcets/other stuff
 Plugin 'surround.vim'
 
 " Checks for whitespaces left
