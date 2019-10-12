@@ -2,7 +2,7 @@
 
 cp ../.gitconfig ~
 ./update-os.sh
-sudo apt install vim w3m mpv neofetch exfat-fuse exfat-utils -y
+sudo apt install vim w3m mpv tor neofetch exfat-fuse exfat-utils -y
 ./configure-vim.sh
 ./install-zsh.sh
 ./install-node-rpi.sh
