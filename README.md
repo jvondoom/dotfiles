@@ -91,6 +91,7 @@ Name | Funcion | Notes
 - [mpv](https://mpv.io/) - CLI enabled media player
 - [ranger](http://www.rosipov.com/blog/ranger-the-cli-file-manager/) - Terminal File Manager.
 - [RTV](https://github.com/michael-lazar/rtv) - [Reddit](https://old.reddit.com) Terminal Viewer. **No longer maintained**
+- [The Silver Searcher](https://github.com/ggreer/the_silver_searcher) - Code searching tool.
 - [todo.txt](https://github.com/todotxt/todo.txt-cli) - todo.txt manager.
 - [Watson](https://github.com/TailorDev/Watson) - Time tracker.
 - [w3m](http://w3m.sourceforge.net/) - Terminal Web Browser.
