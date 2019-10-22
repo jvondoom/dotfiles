@@ -2,7 +2,7 @@
 nnoremap <leader>html :-1read ~/.vim/templates/skeleton.html<CR>4jf>a
 
 "Shortcuts for HTML tags
-inoremap <leader>1 <h1<leader></h1><CR><CR><++><Esc>2ka
+inoremap <leader>1 <h1></h1><CR><CR><++><Esc>2ka
 inoremap <leader>2 <h2></h2><CR><CR><++><Esc>2ka
 inoremap <leader>3 <h3></h3><CR><CR><++><Esc>2ka
 inoremap <leader>4 <h4></h4><CR><CR><++><Esc>2ka
