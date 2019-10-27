@@ -66,7 +66,7 @@ Plugin 'JamshedVesuna/vim-markdown-preview'
 
 " Languages plugins
 " -----------------
-" HTML structure helper
+" HTML helper
 Plugin 'mattn/emmet-vim'
 " CSS Color Highlighter
 Plugin 'ap/vim-css-color'
@@ -80,6 +80,8 @@ Plugin 'mustache/vim-mustache-handlebars'
 Plugin 'pangloss/vim-javascript'
 " JSX Syntax Highlighter
 Plugin 'maxmellon/vim-jsx-pretty'
+" GraphQL Syntax Highlighter
+Plugin 'jparise/vim-graphql'
 
 " Display file icons
 Plugin 'ryanoasis/vim-devicons'

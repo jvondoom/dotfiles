@@ -73,6 +73,7 @@ Name | Funcion | Notes
 [vim-devicons](https://github.com/ryanoasis/vim-devicons) | Addds file icons
 [vim-fugitive](https://github.com/tpope/vim-fugitive) | Git wrapper
 [vim-gitgutter](https://github.com/airblade/vim-gitgutter) | Show git diff on file
+[vim-graphql](https://github.com/jparise/vim-graphql) | GraphQL file detection, syntax highlighting, and indentation.
 [vim-javascript](https://github.com/pangloss/vim-javascript) | JS syntax plugin
 [maxmellon/vim-jsx-pretty](https://github.com/MaxMEllon/vim-jsx-pretty) | React JSX syntax highlighting | Install after JS plugin
 [vim-markdown-preview](https://github.com/JamshedVesuna/vim-markdown-preview) | [Markdown](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet) preview | Requires [Grip](https://github.com/joeyespo/grip) installed
