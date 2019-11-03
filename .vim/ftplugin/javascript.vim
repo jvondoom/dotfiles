@@ -3,16 +3,17 @@ nnoremap <leader>comp :-1read ~/.vim/templates/skeleton.component.js<CR>2jfxs
 
 "Shortcuts for JS elements
 inoremap <leader>if if () {<CR><++><CR>}<CR><++><Esc>3ka
-inoremap <leader>for for(let i=0; i<; i++) {<CR><++><CR>}<CR><++><Esc>3kf<a
+inoremap <leader>for for (let i = 0; i < ; i++) {<CR><++><CR>}<CR><++><Esc>3kf<la
 
 "Shortcuts for JS functions
-inoremap <leader>log console.log()<Esc>F)i
+inoremap <leader>log console.log()<Esc>i
 inoremap <leader>fun function (<++>) {<CR>}<Esc>O<++><Esc>k$F(i
 inoremap <leader>arf () => {<CR>}<Esc>O<++><Esc>k^f)i
 inoremap <leader>gid document.getElementById('')<Esc>F'i
 inoremap <leader>gclas document.getElementsByClassName('')<Esc>F'i
 inoremap <leader>qsel document.querySelector('')<Esc>F'i
 inoremap <leader>adevlist .addEventListener('<++>', <++>)<Esc>F.i
+inoremap <leader>random Math.floor(Math.random() * Math.floor())<Esc>Frla
 
 "Shortcuts for JSX
 inoremap <leader>comp < /><Esc>F<a
