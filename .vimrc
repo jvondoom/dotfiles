@@ -127,6 +127,9 @@ nnoremap <leader>ev :tabnew $MYVIMRC<CR>
 " Opens a new tab and loads the .zshrc file
 nnoremap <leader>ez :tabnew ~/.zshrc<CR>
 
+" Opens Fugitive plugin merge tool
+nnoremap <leader>diff :Gvdiffsplit!<CR>
+
 " Shortcut for opening a new tab
 nnoremap tn :tabnew<CR>
 
