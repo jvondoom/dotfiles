@@ -83,7 +83,7 @@ Name | Funcion | Notes
 ### Recommended
 
 - 🍎 Use [Karabiner](https://pqrs.org/osx/karabiner/) to remap `Caps Lock` to work as `Esc`
-- 🐧 Haven't found one good yet. 🙄
+- 🐧 Install `sudo apt install gnome-tweak-tool` and change the Caps Lock key behaviour.
 
 ## CLI Apps
 
