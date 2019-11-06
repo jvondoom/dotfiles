@@ -83,6 +83,15 @@ Plugin 'maxmellon/vim-jsx-pretty'
 " GraphQL Syntax Highlighter
 Plugin 'jparise/vim-graphql'
 
+" Typescript
+" -----------------
+" Typescript Syntax
+Plugin 'leafgarland/typescript-vim'
+" TSX Syntax
+Plugin 'ianks/vim-tsx'
+" Completition
+Plugin 'Quramy/tsuquyomi'
+
 " Display file icons
 Plugin 'ryanoasis/vim-devicons'
 "-----------------------------
@@ -204,6 +213,7 @@ let g:ale_fixers = {
 \   'css': ['prettier'],
 \   'html': ['prettier'],
 \   'javascript': ['standard'],
+\   'typescript': ['prettier'],
 \   'scss': ['prettier'],
 \}
 let g:ale_sign_error = ''
