@@ -33,6 +33,9 @@ Plugin 'easymotion/vim-easymotion'
 Plugin 'vim-airline/vim-airline'
 Plugin 'vim-airline/vim-airline-themes'
 
+" Display Indentation Lines
+Plugin 'Yggdroot/indentLine'
+
 " Git Plugins
 " -----------
 " Git wrapper
@@ -238,6 +241,11 @@ let vim_markdown_preview_github=1
 autocmd FileType typescript nmap <buffer> <Leader>t : <C-u>echo tsuquyomi#hint()<CR>
 autocmd FileType typescript nmap <buffer> <Leader>e <Plug>(TsuquyomiRenameSymbol)
 autocmd FileType typescript nmap <buffer> <Leader>E <Plug>(TsuquyomiRenameSymbolC)
+
+" ﹝ＩｎｄｅｎｔＬｉｎｅ Ｓｅｔｔｉｎｇｓ﹞
+" -------------------------------------------
+let g:indentLine_char_list = ['|', '¦', '┆', '┊']
+
 
 " *** 〖ＯＬＤ ＳＥＴＴＩＮＧＳ〗 ***
 " -----------------------------------
