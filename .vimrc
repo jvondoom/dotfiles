@@ -233,6 +233,11 @@ let vim_markdown_preview_github=1
 " Refreshes the preview on write
 " let vim_markdown_preview_toggle=2
 
+" ﹝Ｔｓｕｑｕｙｏｍｉ Ｐｌｕｇｉｎ Ｓｅｔｔｉｎｇｓ﹞
+" -------------------------------------------
+autocmd FileType typescript nmap <buffer> <Leader>t : <C-u>echo tsuquyomi#hint()<CR>
+autocmd FileType typescript nmap <buffer> <Leader>e <Plug>(TsuquyomiRenameSymbol)
+autocmd FileType typescript nmap <buffer> <Leader>E <Plug>(TsuquyomiRenameSymbolC)
 
 " *** 〖ＯＬＤ ＳＥＴＴＩＮＧＳ〗 ***
 " -----------------------------------
