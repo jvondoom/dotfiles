@@ -31,6 +31,8 @@ antigen use oh-my-zsh
 
 # ﹝ＰＬＵＧＩＮＳ﹞
 # ---------------
+# Note: Any plugin configuration variable must be done
+# above this section to override the defaults
 antigen bundle git
 antigen bundle vi-mode
 antigen bundle zsh-users/zsh-syntax-highlighting
