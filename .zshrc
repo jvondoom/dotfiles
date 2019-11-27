@@ -35,6 +35,7 @@ antigen use oh-my-zsh
 # above this section to override the defaults
 antigen bundle git
 antigen bundle vi-mode
+antigen bundle tmux
 antigen bundle zsh-users/zsh-syntax-highlighting
 antigen bundle zsh-users/zsh-autosuggestions
 
@@ -62,6 +63,7 @@ alias vimconfig="vim ~/.vimrc"
 # terminal app shortcuts
 alias duck="w3m duckduckgo.com"
 alias t="todo.sh"
+alias ydl="youtube-dl -f best"
 alias add-gitignore="npx add-gitignore"
 
 # dev environment shortcuts
