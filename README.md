@@ -33,7 +33,7 @@ Place to remember the tools used in all cogitators.
 [cyberpunk-iterm2](https://github.com/Murderlon/cyberpunk-iterm). Neo neon style!
 
 #### Font
-[FiraCode Nerd Font](https://github.com/ryanoasis/nerd-fonts/releases/download/v2.0.0/FiraCode.zip) from [Nerd Fonts](https://github.com/ryanoasis/nerd-fonts). 
+[JetBrainsMono Nerd Font](https://github.com/ryanoasis/nerd-fonts/releases/download/v2.1.0/JetBrainsMono.zip) from [Nerd Fonts](https://www.nerdfonts.com). 
 
 _To enable ligatures go to `Preferences -> Profiles -> Text -> Use ligatures`_.
 
