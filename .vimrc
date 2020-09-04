@@ -138,6 +138,8 @@ let mapleader = "\,"
 nnoremap <leader>ev :tabnew $MYVIMRC<CR>
 " Opens a new tab and loads the .zshrc file
 nnoremap <leader>ez :tabnew ~/.zshrc<CR>
+" Shortcut for find a file
+nnoremap <leader>f :find<Space>
 
 " Opens Fugitive plugin merge tool
 nnoremap <leader>diff :Gvdiffsplit!<CR>
@@ -211,13 +213,16 @@ let g:ale_linters = {
 \   'javascript': ['standard'],
 \   'scss': ['scsslint'],
 \   'vim': ['vint'],
+\   'mdx': ['prettier'],
 \}
 let g:ale_fixers = {
 \   'css': ['prettier'],
 \   'html': ['prettier'],
 \   'javascript': ['standard'],
+\   'json': ['prettier'],
 \   'typescript': ['prettier'],
 \   'scss': ['prettier'],
+\   'mdx': ['prettier'],
 \}
 let g:ale_sign_error = ''
 let g:ale_sign_warning = ''
@@ -238,9 +243,9 @@ let vim_markdown_preview_github=1
 
 " ﹝Ｔｓｕｑｕｙｏｍｉ Ｐｌｕｇｉｎ Ｓｅｔｔｉｎｇｓ﹞
 " -------------------------------------------
-autocmd FileType typescript nmap <buffer> <Leader>t : <C-u>echo tsuquyomi#hint()<CR>
-autocmd FileType typescript nmap <buffer> <Leader>e <Plug>(TsuquyomiRenameSymbol)
-autocmd FileType typescript nmap <buffer> <Leader>E <Plug>(TsuquyomiRenameSymbolC)
+autocmd FileType typescript nmap <buffer> <leader>t : <C-u>echo tsuquyomi#hint()<CR>
+autocmd FileType typescript nmap <buffer> <leader>e <Plug>(TsuquyomiRenameSymbol)
+autocmd FileType typescript nmap <buffer> <leader>E <Plug>(TsuquyomiRenameSymbolC)
 
 " ﹝ＩｎｄｅｎｔＬｉｎｅ Ｓｅｔｔｉｎｇｓ﹞
 " -------------------------------------------
