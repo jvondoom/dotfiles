@@ -65,6 +65,8 @@ alias duck="w3m duckduckgo.com"
 alias t="todo.sh"
 alias ydl="youtube-dl -f best"
 alias add-gitignore="npx add-gitignore"
+# update OS
+alias osupd="bash /home/jbaca/dotfiles/scripts-linux/update-os.sh"
 
 # dev environment shortcuts
 alias nrs="npm run start"
