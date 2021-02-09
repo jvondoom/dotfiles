@@ -96,3 +96,5 @@ Name | Funcion | Notes
 - [todo.txt](https://github.com/todotxt/todo.txt-cli) - todo.txt manager.
 - [Watson](https://github.com/TailorDev/Watson) - Time tracker.
 - [w3m](http://w3m.sourceforge.net/) - Terminal Web Browser.
+- [spotifycli](https://github.com/pwittchen/spotify-cli-linux) - Spotify CLI (Linux only)
+- [spotify](https://github.com/ersel/spotify-cli-mac) - Spotify CLI (OSx only)
