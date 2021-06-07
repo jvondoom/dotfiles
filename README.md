@@ -97,4 +97,5 @@ Name | Funcion | Notes
 - [Watson](https://github.com/TailorDev/Watson) - Time tracker.
 - [w3m](http://w3m.sourceforge.net/) - Terminal Web Browser.
 - [spotifycli](https://github.com/pwittchen/spotify-cli-linux) - Spotify CLI (Linux only)
+- [spotify-cli-mac ](https://github.com/ersel/spotify-cli-mac) - Spotify CLI (OSX only)
 - [spotify](https://github.com/ersel/spotify-cli-mac) - Spotify CLI (OSx only)
