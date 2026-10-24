@@ -84,6 +84,7 @@ Name | Funcion | Notes
 
 - 🍎 Use [Karabiner](https://pqrs.org/osx/karabiner/) to remap `Caps Lock` to work as `Esc`
 - 🐧 Install `sudo apt install gnome-tweak-tool` and change the Caps Lock key behaviour.
+- 🐧 For Linux Mint, go to `Keyboard > XKB Options` and add a rule to make the Caps Lock an additional Esc
 
 ## CLI Apps
 
